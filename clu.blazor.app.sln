@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29403.142
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clu.blazor.app.server", "clu.blazor.app.server\clu.blazor.app.server\clu.blazor.app.server.csproj", "{F4B069C1-2279-40AC-8AD8-C603A9255B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "clu.blazor.app.server", "clu.blazor.app.server\clu.blazor.app.server.csproj", "{F4B069C1-2279-40AC-8AD8-C603A9255B84}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clu.blazor.app.client", "clu.blazor.app.client\clu.blazor.app.client.csproj", "{AAE3F335-73E5-4B5C-AA40-948F98B2F73C}"
 EndProject

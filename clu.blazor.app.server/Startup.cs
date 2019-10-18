@@ -26,8 +26,10 @@ namespace clu.blazor.app.server
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            // Enables Blazor.
             services.AddRazorPages();
             services.AddServerSideBlazor();
+
             services.AddSingleton<WeatherForecastService>();
         }
 
@@ -52,6 +54,7 @@ namespace clu.blazor.app.server
 
             app.UseEndpoints(endpoints =>
             {
+                // Initializes SignalR Hub for WebSocket connection
                 endpoints.MapBlazorHub();
                 endpoints.MapFallbackToPage("/_Host");
             });

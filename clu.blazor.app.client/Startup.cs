@@ -11,6 +11,7 @@ namespace clu.blazor.app.client
 
         public void Configure(IComponentsApplicationBuilder app)
         {
+            // Adds first Razor component to application (from there other components are started). 
             app.AddComponent<App>("app");
         }
     }

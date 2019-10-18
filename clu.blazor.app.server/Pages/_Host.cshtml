@@ -13,10 +13,14 @@
     <link href="css/site.css" rel="stylesheet" />
 </head>
 <body>
+
+    <!-- from here other razor components are loaded -->
     <app>
         @(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))
     </app>
 
+    <!-- establishes client web socket connection to server -->
     <script src="_framework/blazor.server.js"></script>
+
 </body>
 </html>
